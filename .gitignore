@@ -1,0 +1,8 @@
+*/bin/
+*/obj/
+*/.vs/
+/.vs/Sandbox/v17/.suo
+.vs/
+packages/
+/Shared.Discord/BotToken.txt
+nuget.exe

@@ -1,0 +1,16 @@
+﻿<Window x:Class="MacroGui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MacroGui" 
+        xmlns:views="clr-namespace:MacroGui.Views" xmlns:tabs="clr-namespace:MacroGui.Views.Tabs"
+        mc:Ignorable="d"
+        Name="_mainWindow"
+        Topmost="True"
+        Height="400" Width="400">
+    <TabControl Margin="0">
+        <tabs:RunMacroTab x:Name="RunMacroTab" />
+        <tabs:AppConfigTab x:Name="ConfigTab" />
+    </TabControl>
+</Window>

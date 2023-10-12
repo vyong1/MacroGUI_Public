@@ -1,0 +1,21 @@
+﻿== Macro GUI
+* Should Anti-AFK be its own project?
+* Add UI indication for telling user that we wait a few seconds when Start is pressed before executing the macro
+* Prettier UI
+* UI Themes
+* Add configuration for:
+	1.) Toggling AlwaysOnTop
+	2.) Delay before starting a macro
+* Also serialize the confuration
+* UI support for crafting macros
+* Add support for custom macros made on the UI (should also be serialized)
+* UI support for configuring macros (like Crafting macro time, auto click macro speed, etc.)
+* Rename to XivTools
+
+== Shared
+* Dispose of Processes? https://stackoverflow.com/q/16957320/8105758
+* Add support for non-dalamud FFXIV (?)
+* XivGame.FocusGameWindow() seems to be buggy
+
+== All
+* Migrate from .NET Framework to .NET 6.0
